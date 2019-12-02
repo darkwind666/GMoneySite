@@ -27,6 +27,8 @@ module.exports = {
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
+        watchMode: true,
+        overlayDrafts: true,
         icons: [
           {
             src: `/android-chrome-192x192.png`,
