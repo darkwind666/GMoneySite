@@ -14,15 +14,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
+        trackingId: process.env.UA-153750144-1,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Cara - @lekoarts/gatsby-theme-cara`,
-        short_name: `Cara`,
-        description: `Playful and Colorful One-Page portfolio featuring Parallax effects and animations`,
+        short_name: `GMoney`,
+        description: `Technology helps tourists convert currencies in foreign country`,
         start_url: `/`,
         background_color: `#141821`,
         theme_color: `#f6ad55`,
