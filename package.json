@@ -31,5 +31,8 @@
   },
   "engines": {
     "node": ">=16"
+  },
+  "resolutions": {
+    "sharp": "0.25.4"
   }
 }
