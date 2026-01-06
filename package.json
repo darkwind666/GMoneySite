@@ -7,8 +7,8 @@
   "license": "MIT",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
-    "build": "npx gatsby@2 build",
-    "develop": "npx gatsby@2 develop",
+    "build": "gatsby build",
+    "develop": "gatsby build",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
@@ -27,7 +27,8 @@
     "sharp": "^0.25.4"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0"
+    "cross-env": "^5.2.0",
+    "gatsby-cli": "2.32.13"
   },
   "engines": {
     "node": ">=16"
