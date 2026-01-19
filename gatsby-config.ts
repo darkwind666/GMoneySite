@@ -1,8 +1,11 @@
-require(`dotenv`).config({
+import type { GatsbyConfig } from "gatsby"
+import dotenv from "dotenv"
+
+dotenv.config({
   path: `.env`,
 })
 
-module.exports = {
+const config: GatsbyConfig = {
   siteMetadata: {
     siteTitleAlt: `GMoney - AR currency converter`,
   },
@@ -27,8 +30,6 @@ module.exports = {
         background_color: `#141821`,
         theme_color: `#f6ad55`,
         display: `standalone`,
-        watchMode: true,
-        overlayDrafts: true,
         icons: [
           {
             src: `/android-chrome-192x192.png`,
@@ -47,3 +48,5 @@ module.exports = {
     `gatsby-plugin-netlify`,
   ],
 }
+
+export default config

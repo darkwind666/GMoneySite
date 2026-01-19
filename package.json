@@ -2,13 +2,13 @@
   "private": true,
   "name": "cara",
   "description": "Playful and Colorful One-Page portfolio featuring Parallax effects and animations",
-  "version": "0.0.15",
-  "author": "LekoArts <hello@lekoarts.de>",
-  "license": "MIT",
+  "version": "0.2.17",
+  "author": "LekoArts",
+  "license": "0BSD",
   "starter-name": "gatsby-starter-portfolio-cara",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby build",
+    "develop": "gatsby develop",
     "develop:cypress": "cross-env CYPRESS_SUPPORT=y yarn develop",
     "build:cypress": "cross-env CYPRESS_SUPPORT=y yarn build",
     "start": "gatsby develop",
@@ -16,24 +16,19 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "@lekoarts/gatsby-theme-cara": "^1.0.12",
-    "gatsby": "2.32.13",
-    "gatsby-plugin-google-analytics": "^2.11.0",
-    "gatsby-plugin-manifest": "2.2.6",
-    "gatsby-plugin-netlify": "^2.11.1",
-    "gatsby-plugin-offline": "2.2.7",
-    "react": "^16.14.0",
-    "react-dom": "^16.14.0",
-    "sharp": "^0.25.4"
+    "@lekoarts/gatsby-theme-cara": "^5.1.7",
+    "gatsby": "^5.14.5",
+    "gatsby-plugin-manifest": "^5.14.0",
+    "gatsby-plugin-webpack-statoscope": "^1.0.3",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "cross-env": "^5.2.0",
-    "gatsby-cli": "2.32.13"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "resolutions": {
-    "sharp": "0.25.4"
+    "@types/node": "^22.15.33",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.7",
+    "ajv": "^8.17.1",
+    "cross-env": "^7.0.3",
+    "typescript": "^5.8.3"
   }
 }
